@@ -40,12 +40,12 @@ Publish the website in the LocalHost.
             .bookpage{
                 width: 400px;
                 height: 600px;
-                color:#00FFCF;
+                color:#FFDF2B;
                 margin-left: auto;
                 margin-right: auto;
                 padding: 20px;
                 font-family:'Times New Roman', Times, serif;
-                background-image: url("MyPhoto.png");
+                background-image: url("MyPhoto.jpg");
                 background-size: cover;
             }
             .insight{
@@ -58,9 +58,8 @@ Publish the website in the LocalHost.
             .author{
                 display: inline;
                 position: relative;
-                color:#00FFCF;
-                top: 190px;
-
+                color:;
+                top: 180px;
                 font-family: 'Times New Roman', Times, serif;
                 font-size: medium;
             }
@@ -83,14 +82,14 @@ Publish the website in the LocalHost.
                 font-size: medium;
                 position: relative;
                 top: 155px;
-                left: 330px;
+                left: 370px;
             }
             .ed{
-                color: #FF3EB5;
+                color: #ffffff;
                 font-size: medium;
                 font-family: Verdana;
                 position: relative;
-                top: 85px;
+                top: 70px;
 
             }
             .subtitle{
@@ -101,11 +100,11 @@ Publish the website in the LocalHost.
             }
             .mypic{
                 position: relative;
-                top: 135px;
-                left: 260px;
+                top: 150px;
+                left: 300px;
                 width: 100px;
                 height: 100px;
-                background-size: cover;
+                background-size: auto;
             }
         </style>
         <title>Book Cover Page</title>
@@ -114,21 +113,22 @@ Publish the website in the LocalHost.
     <body>
         <div class="bookpage">
             <div class="insight">
-                SEC INSIGHT
+                <b>SEC INSIGHT</b>
             </div>
             <div class="hrstyle">
-                <hr style="color: yellow;">
+                <hr style="color: rgb(0, 38, 255);">
             </div>
             <div class="booktitle">
-                <h1>Web Development: The Complete Reference</h1>
+                <h1>Code Mavericks:Unleashing the Power of Code</h1>
             </div>
             <div class="subtitle">
-                with Django and Bootstrap Insights
+                <h3>with Django and Bootstrap Insights</h3>
             </div>
             <div class="mypic">
-                <img src="Photo.jpg" width="130" height="145" alt="">
+                <img src="Photo.jpg" width="100px" height="100px" style="border-radius: 100%;">
             </div>
             <div class="id">
+                
                 <hr style="color: orange;">
             </div>
             <div class="author">
@@ -147,7 +147,6 @@ Publish the website in the LocalHost.
 ```
 
 ## OUTPUT:
-![Alt text](image.png)
-
+![image](https://github.com/Gokkul-M/cover/assets/144870543/385402fe-ae90-4939-8060-b77469cc04df)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
